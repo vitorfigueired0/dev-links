@@ -1,6 +1,6 @@
 import React from "react";
 import photo from '../images/photo.jpeg';
-import { FaGithub, FaInstagram, FaReact, FaNodeJs, FaJava, FaDocker, FaLinux } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaReact, FaNodeJs, FaJava, FaDocker, FaLinux, FaLinkedin } from "react-icons/fa";
 import { SiNestjs, SiSpring, SiMongodb, SiTypescript } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbWorldWww } from "react-icons/tb";
@@ -44,6 +44,12 @@ export const Card = () => {
         />
 
         <CardLink
+          icon={FaLinkedin}
+          href='https://www.linkedin.com/in/vitorfig/'
+          text='LinkedIn'  
+        />
+
+        <CardLink
           icon={FaInstagram}
           href='https://www.instagram.com/vitor.figueired0/'
           text='Instagram'  
@@ -60,6 +66,7 @@ export const Card = () => {
           href='mailto:vittor.figueiredo17@gmail.com'
           text='E-mail'  
         />
+
       </div>
     </div>
   );
