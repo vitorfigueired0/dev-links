@@ -10,7 +10,7 @@ export const Card = () => {
   return (
     <div className='bg-slate-200 h-auto w-full max-w-md rounded-3xl flex flex-col pb-8 pt-10 px-10'>
       <div className='w-full'>
-        <img src={photo} alt='me' className='h-[130px] rounded-full block mx-auto border-avatarBorder border-4'/>
+        <img src={photo} alt='me' className='h-[130px] rounded-full block mx-auto border-avatarBorder border-4 shadow-xl'/>
         <div className='text-center'>
           <h1 className='mt-6 mb-4 text-3xl'>Vitor Figueiredo</h1>
           <p className='mb-8'>Dev fullstack (React, NodeJS, Java)</p>
